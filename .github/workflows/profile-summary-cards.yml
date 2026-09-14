@@ -47,6 +47,19 @@ jobs:
           THEME: github_dark
           AUTO_PUSH: false
 
+      - name: Restyle generated cards
+        shell: bash
+        run: |
+          # 统一视觉语言: 标题链接蓝 -> 正文白, 标签灰对齐 Codex 卡, 标题字号收敛
+          # 这些卡片由上面的 action 生成, 每天会被重新覆盖, 因此必须在此处重做改色
+          find profile-summary-card-output -name '*.svg' -print0 | while IFS= read -r -d '' f; do
+            sed -i \
+              -e 's/fill: #0366d6/fill: #e6edf3/g' \
+              -e 's/#77909c/#8b949e/g' \
+              -e 's/font-size: 22px/font-size: 18px/g' \
+              "$f"
+          done
+
       - name: Commit generated assets
         shell: bash
         run: |
