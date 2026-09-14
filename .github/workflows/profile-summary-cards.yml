@@ -35,7 +35,7 @@ jobs:
             \( +clone -threshold -1 -negate -fill white -draw "circle 90,90 90,0" \) \
             -alpha off -compose CopyOpacity -composite assets/avatar.png
 
-      - name: Generate summary cards
+      - name: Generate language card
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,6 +44,7 @@ jobs:
           BRANCH_NAME: main
           UTC_OFFSET: 8
           EXCLUDE: ""
+          THEME: github_dark
           AUTO_PUSH: false
 
       - name: Commit generated assets
