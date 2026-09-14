@@ -7,6 +7,7 @@ import { dirname, resolve } from 'node:path';
 const ENDPOINT = 'https://chatgpt.com/backend-api/wham/usage/daily-token-usage-breakdown';
 const DAY = 86_400_000;
 const DAYS_TO_SHOW = 60;
+const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const OUTPUT = resolve('assets/codex-token-activity.svg');
 const AUTH = resolve(homedir(), '.codex/auth.json');
 
@@ -60,16 +61,14 @@ function render(days, today) {
   const visibleStart = iso(addDays(today, -(DAYS_TO_SHOW - 1)));
   const cells = [];
   const monthLabels = [];
+  const weekdayTotals = [0, 0, 0, 0, 0, 0, 0];
   let peak = 0;
+  let peakDate = '';
   let activeDays = 0;
+  let heavyDays = 0;
+  let shownDays = 0;
+  let total = 0;
   let previousMonth = null;
-
-  for (const [date, raw] of Object.entries(days)) {
-    if (date < visibleStart || date > today) continue;
-    const value = Number(raw) || 0;
-    peak = Math.max(peak, value);
-    if (value > 0) activeDays += 1;
-  }
 
   for (let i = 0; i < cols * rows; i += 1) {
     const date = new Date(start.getTime() + i * DAY);
@@ -81,6 +80,17 @@ function render(days, today) {
     const y = y0 + row * (cell + gap);
 
     if (key >= visibleStart && key <= today) {
+      // 统计只覆盖实际显示的格子, 与图面一致
+      shownDays += 1;
+      total += value;
+      if (value > peak) {
+        peak = value;
+        peakDate = key;
+      }
+      if (value > 0) activeDays += 1;
+      if (value >= 50) heavyDays += 1;
+      weekdayTotals[date.getUTCDay()] += value;
+
       const month = date.getUTCMonth();
       if (month !== previousMonth && date.getUTCDate() <= 7) {
         monthLabels.push(
@@ -95,14 +105,29 @@ function render(days, today) {
     );
   }
 
+  const avg = shownDays ? total / shownDays : 0;
+  const busiestDay = WEEKDAYS[weekdayTotals.indexOf(Math.max(...weekdayTotals))];
+  const tickerItems = [
+    `peak · ${peak.toFixed(0)}% · ${peakDate.slice(5)}`,
+    `avg · ${avg.toFixed(1)}% per day`,
+    `busiest · ${busiestDay}`,
+    `active · ${activeDays} of ${shownDays}d`,
+    `${heavyDays} days over 50%`,
+  ];
+  const ticker = tickerItems.map((t, i) => `<text class="tk t${i}" x="78" y="44">${t}</text>`).join('\n');
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Codex Token Activity">
 <style>
-.bg{fill:#0d1117;stroke:#2e343b;stroke-width:1}.title{fill:#e6edf3;font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#8b949e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(240,246,252,.05);stroke-width:1}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}
+.bg{fill:#0d1117;stroke:#2e343b;stroke-width:1}.title{fill:#e6edf3;font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#8b949e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(240,246,252,.05);stroke-width:1;transition:stroke .12s,filter .12s,transform .12s}.d:hover{stroke:#fff;stroke-width:2;filter:brightness(1.4);transform:scale(1.18);transform-box:fill-box;transform-origin:center}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}
+.tk{fill:#58a6ff;font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;opacity:0;animation:tkf ${tickerItems.length * 3}s infinite}
+${tickerItems.map((_, i) => `.t${i}{animation-delay:${i * 3}s}`).join('')}
+@keyframes tkf{0%{opacity:0}1.5%{opacity:1}18.5%{opacity:1}20%{opacity:0}100%{opacity:0}}
 </style>
 <rect class="bg" x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="5"/>
 <text class="title" x="24" y="28">Codex Token Activity</text>
-<text class="sub" x="24" y="44">last ${DAYS_TO_SHOW} days · peak ${peak.toFixed(1)}% · active ${activeDays}d</text>
+<text class="sub" x="24" y="44">${DAYS_TO_SHOW} days</text>
+${ticker}
 ${cells.join('\n')}
 ${monthLabels.join('\n')}
 </svg>`;
