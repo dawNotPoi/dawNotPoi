@@ -14,19 +14,19 @@ Working mainly with **TypeScript / React / Node.js**, while contributing to open
 
 <br />
 
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-1F2328?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+<img src="https://img.shields.io/badge/Rust-1F2328?style=flat-square&logo=rust&logoColor=FFFFFF" alt="Rust" />
+<img src="https://img.shields.io/badge/Go-1F2328?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
 
 <br />
 
-<img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=probot&logoColor=white" alt="MCP" />
-<img src="https://img.shields.io/badge/ACP-4F46E5?style=flat-square&logo=protocolsdotio&logoColor=white" alt="ACP" />
-<img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" alt="Codex" />
-<img src="https://img.shields.io/badge/Pi-111111?style=flat-square&logo=gnometerminal&logoColor=white" alt="Pi" />
-<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
+<img src="https://img.shields.io/badge/MCP-1F2328?style=flat-square" alt="MCP" />
+<img src="https://img.shields.io/badge/ACP-1F2328?style=flat-square" alt="ACP" />
+<img src="https://img.shields.io/badge/Codex-1F2328?style=flat-square" alt="Codex" />
+<img src="https://img.shields.io/badge/Pi-1F2328?style=flat-square" alt="Pi" />
+<img src="https://img.shields.io/badge/DeepSeek-1F2328?style=flat-square&logo=deepseek&logoColor=4D6BFE" alt="DeepSeek" />
 
 </div>
 
@@ -36,40 +36,40 @@ Working mainly with **TypeScript / React / Node.js**, while contributing to open
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-<p><img src="https://raw.githubusercontent.com/dawNotPoi/PeekPal/main/src/renderer/src/assets/app-icon.png" width="42" height="42" alt="PeekPal" /></p>
+<a href="https://github.com/dawNotPoi/PeekPal"><img src="./assets/projects/peekpal.png" width="64" alt="PeekPal" /></a>
 
-### [PeekPal](https://github.com/dawNotPoi/PeekPal)
+#### [PeekPal](https://github.com/dawNotPoi/PeekPal)
 
-A lightweight desktop developer tool built around an embedded-browser workflow.
+A lightweight desktop devtool built around an embedded-browser workflow.
 
-<img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-
-</td>
-<td width="33%" valign="top">
-
-<p><img src="./assets/projects/skills.svg" width="42" height="42" alt="Skills" /></p>
-
-### [Skills](https://github.com/dawNotPoi/skills)
-
-Composable skills and workflow definitions for AI-assisted development, from product discovery to implementation and visual QA.
-
-<img src="https://img.shields.io/badge/Agent_Skills-7C3AED?style=flat-square&logo=probot&logoColor=white" alt="Agent Skills" />
-<img src="https://img.shields.io/badge/UI_Workflow-2563EB?style=flat-square&logo=figma&logoColor=white" alt="UI Workflow" />
+<img src="https://img.shields.io/badge/Electron-1F2328?style=flat-square&logo=electron&logoColor=47848F" alt="Electron" />
+<img src="https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-<p><img src="./assets/projects/nubbi.svg" width="42" height="42" alt="Nubbi" /></p>
+<a href="https://github.com/dawNotPoi/skills"><img src="./assets/projects/skills.svg" width="64" alt="Skills" /></a>
 
-### [Nubbi](https://github.com/dawNotPoi/Nubbi)
+#### [Skills](https://github.com/dawNotPoi/skills)
 
-A full-stack knowledge workspace with rich-text notes, file storage, real-time collaboration and an MCP server for AI clients.
+Composable skills and workflow definitions for AI-assisted development.
 
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=probot&logoColor=white" alt="MCP" />
+<img src="https://img.shields.io/badge/Agent_Skills-1F2328?style=flat-square" alt="Agent Skills" />
+<img src="https://img.shields.io/badge/UI_Workflow-1F2328?style=flat-square" alt="UI Workflow" />
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://github.com/dawNotPoi/Nubbi"><img src="./assets/projects/nubbi.svg" width="64" alt="Nubbi" /></a>
+
+#### [Nubbi](https://github.com/dawNotPoi/Nubbi)
+
+Full-stack knowledge workspace with rich-text notes, file storage, real-time collaboration and an MCP server.
+
+<img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/MCP-1F2328?style=flat-square" alt="MCP" />
 
 </td>
 </tr>
@@ -81,43 +81,46 @@ A full-stack knowledge workspace with rich-text notes, file storage, real-time c
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-<p><img src="./assets/projects/codeg.svg" width="42" height="42" alt="Codeg" /></p>
+<a href="https://github.com/xintaofei/codeg"><img src="./assets/projects/codeg.svg" width="64" alt="Codeg" /></a>
 
-### [Codeg](https://github.com/xintaofei/codeg)
+#### [Codeg](https://github.com/xintaofei/codeg)
 
-Coding-agent workspace. Contributions around **MCP discovery, tool-call normalization, Worktree lifecycle and runtime reliability**.
+Coding-agent workspace and orchestration layer.
 
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=probot&logoColor=white" alt="MCP" />
+<sub>MCP discovery · ACP sessions · tool-call normalization</sub>
 
-</td>
-<td width="33%" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MHSanaei/3x-ui/main/docs/public/logo-dark.png" />
-  <img src="https://raw.githubusercontent.com/MHSanaei/3x-ui/main/docs/public/logo-light.png" width="74" alt="3x-ui" />
-</picture>
-
-### [3x-ui](https://github.com/MHSanaei/3x-ui)
-
-Multi-platform Xray management panel. Contributions across **frontend/backend behavior, state consistency and concurrency-related fixes**.
-
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Rust-1F2328?style=flat-square&logo=rust&logoColor=FFFFFF" alt="Rust" />
+<img src="https://img.shields.io/badge/MCP-1F2328?style=flat-square" alt="MCP" />
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" align="center" valign="top">
 
-<p><img src="./assets/projects/assistant-ui.svg" width="42" height="42" alt="assistant-ui" /></p>
+<a href="https://github.com/MHSanaei/3x-ui"><img src="./assets/projects/3x-ui.png" width="64" alt="3x-ui" /></a>
 
-### [assistant-ui](https://github.com/assistant-ui/assistant-ui)
+#### [3x-ui](https://github.com/MHSanaei/3x-ui)
 
-React infrastructure for AI chat and agent interfaces. Contributions around **runtime state, triggers, tooling and CI reliability**.
+Multi-platform Xray management panel.
 
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Agent_UI-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="Agent UI" />
+<sub>Frontend · backend · subscription behavior · concurrency fixes</sub>
+
+<img src="https://img.shields.io/badge/Go-1F2328?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
+<img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://github.com/assistant-ui/assistant-ui"><img src="./assets/projects/assistant-ui.svg" width="64" alt="assistant-ui" /></a>
+
+#### [assistant-ui](https://github.com/assistant-ui/assistant-ui)
+
+React infrastructure for AI chat and agent interfaces.
+
+<sub>Runtime state · trigger behavior · CI reliability</sub>
+
+<img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Agent_UI-1F2328?style=flat-square" alt="Agent UI" />
 
 </td>
 </tr>
@@ -127,23 +130,10 @@ React infrastructure for AI chat and agent interfaces. Contributions around **ru
 
 ## Activity
 
-<table>
-<tr>
-<td width="34%" valign="top">
-
-### Code Languages
-
-<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="100%" alt="Top languages by commit" />
-
-</td>
-<td width="66%" valign="top">
-
-### 60-day Codex Token Activity
-
-<a href="https://raw.githubusercontent.com/dawNotPoi/dawNotPoi/main/assets/codex-token-activity.svg" target="_blank" title="Open full-size Codex token activity">
-  <img width="100%" src="./assets/codex-token-activity.svg" alt="Daily Codex token activity over the last 60 days" />
-</a>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="47%" alt="Top languages by commit" />
+  &nbsp;&nbsp;
+  <a href="https://raw.githubusercontent.com/dawNotPoi/dawNotPoi/main/assets/codex-token-activity.svg" target="_blank" title="Open full-size Codex token activity">
+    <img src="./assets/codex-token-activity.svg" width="32%" alt="Daily Codex token activity over the last 60 days" />
+  </a>
+</p>

@@ -47,7 +47,7 @@ function level(value) {
 }
 
 function render(days, today) {
-  const width = 430;
+  const width = 266;
   const height = 230;
   const cols = 9;
   const rows = 7;
@@ -98,10 +98,9 @@ function render(days, today) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Codex Token Activity">
 <style>
-.bg{fill:#fff}.title{fill:#24292f;font:600 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#6e7781;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(27,31,36,.05);stroke-width:1}.l0{fill:#f3f4f6}.l1{fill:#dbeafe}.l2{fill:#bfdbfe}.l3{fill:#93c5fd}.l4{fill:#60a5fa}.l5{fill:#2563eb}
-@media(prefers-color-scheme:dark){.bg{fill:#0d1117}.title{fill:#e6edf3}.sub,.month{fill:#8b949e}.d{stroke:rgba(240,246,252,.05)}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}}
+.bg{fill:#0d1117;stroke:#2e343b;stroke-width:1}.title{fill:#e6edf3;font:600 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#8b949e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(240,246,252,.05);stroke-width:1}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}
 </style>
-<rect class="bg" width="${width}" height="${height}" rx="14"/>
+<rect class="bg" x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="5"/>
 <text class="title" x="24" y="28">Codex Token Activity</text>
 <text class="sub" x="24" y="44">last ${DAYS_TO_SHOW} days · peak ${peak.toFixed(1)}% · active ${activeDays}d</text>
 ${cells.join('\n')}
