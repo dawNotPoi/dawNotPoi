@@ -32,13 +32,15 @@ Working mainly with **TypeScript / React / Node.js**, while contributing to open
 
 ---
 
-## 🚀 Selected Projects
+## Selected Projects
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🧭 [PeekPal](https://github.com/dawNotPoi/PeekPal)
+<p><img src="https://raw.githubusercontent.com/dawNotPoi/PeekPal/main/src/renderer/src/assets/app-icon.png" width="42" height="42" alt="PeekPal" /></p>
+
+### [PeekPal](https://github.com/dawNotPoi/PeekPal)
 
 A lightweight desktop developer tool built around an embedded-browser workflow.
 
@@ -46,38 +48,28 @@ A lightweight desktop developer tool built around an embedded-browser workflow.
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🧩 [Skills](https://github.com/dawNotPoi/skills)
+<p><img src="./assets/projects/skills.svg" width="42" height="42" alt="Skills" /></p>
 
-Composable skills and workflow definitions for AI-assisted development, covering product discovery, UI direction, implementation and visual QA.
+### [Skills](https://github.com/dawNotPoi/skills)
+
+Composable skills and workflow definitions for AI-assisted development, from product discovery to implementation and visual QA.
 
 <img src="https://img.shields.io/badge/Agent_Skills-7C3AED?style=flat-square&logo=probot&logoColor=white" alt="Agent Skills" />
 <img src="https://img.shields.io/badge/UI_Workflow-2563EB?style=flat-square&logo=figma&logoColor=white" alt="UI Workflow" />
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 📝 [Nubbi](https://github.com/dawNotPoi/Nubbi)
+<p><img src="./assets/projects/nubbi.svg" width="42" height="42" alt="Nubbi" /></p>
 
-A full-stack knowledge workspace with rich-text notes, file storage, real-time collaboration and an MCP server exposing workspace capabilities to AI clients.
+### [Nubbi](https://github.com/dawNotPoi/Nubbi)
+
+A full-stack knowledge workspace with rich-text notes, file storage, real-time collaboration and an MCP server for AI clients.
 
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
 <img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=probot&logoColor=white" alt="MCP" />
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 Current Focus
-
-Practical infrastructure around coding agents: protocol integration, runtime behavior, task isolation and reliable developer workflows.
-
-<img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=probot&logoColor=white" alt="MCP" />
-<img src="https://img.shields.io/badge/ACP-4F46E5?style=flat-square&logo=protocolsdotio&logoColor=white" alt="ACP" />
-<img src="https://img.shields.io/badge/Runtime-0F766E?style=flat-square&logo=gnubash&logoColor=white" alt="Runtime" />
 
 </td>
 </tr>
@@ -85,30 +77,32 @@ Practical infrastructure around coding agents: protocol integration, runtime beh
 
 ---
 
-## 🌱 Open Source
+## Open Source
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🤖 [Codeg](https://github.com/xintaofei/codeg)
+<p><img src="./assets/projects/codeg.svg" width="42" height="42" alt="Codeg" /></p>
 
-Coding-agent workspace and orchestration layer.
+### [Codeg](https://github.com/xintaofei/codeg)
 
-Contributing across **MCP discovery, ACP/session behavior, tool-call normalization, Git Worktree lifecycle and runtime reliability**.
+Coding-agent workspace. Contributions around **MCP discovery, tool-call normalization, Worktree lifecycle and runtime reliability**.
 
 <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
 <img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=probot&logoColor=white" alt="MCP" />
-<img src="https://img.shields.io/badge/ACP-4F46E5?style=flat-square&logo=protocolsdotio&logoColor=white" alt="ACP" />
 
 </td>
 <td width="33%" valign="top">
 
-### ⚙️ [3x-ui](https://github.com/MHSanaei/3x-ui)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MHSanaei/3x-ui/main/docs/public/logo-dark.png" />
+  <img src="https://raw.githubusercontent.com/MHSanaei/3x-ui/main/docs/public/logo-light.png" width="74" alt="3x-ui" />
+</picture>
 
-Multi-platform Xray management panel.
+### [3x-ui](https://github.com/MHSanaei/3x-ui)
 
-Contributing across **frontend, backend, subscription behavior, state consistency and concurrency-related fixes**.
+Multi-platform Xray management panel. Contributions across **frontend/backend behavior, state consistency and concurrency-related fixes**.
 
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
@@ -116,11 +110,11 @@ Contributing across **frontend, backend, subscription behavior, state consistenc
 </td>
 <td width="33%" valign="top">
 
-### 💬 [assistant-ui](https://github.com/assistant-ui/assistant-ui)
+<p><img src="./assets/projects/assistant-ui.svg" width="42" height="42" alt="assistant-ui" /></p>
 
-React infrastructure for AI chat and agent interfaces.
+### [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
-Contributing to **runtime state handling, trigger behavior, registry/tooling and CI reliability**.
+React infrastructure for AI chat and agent interfaces. Contributions around **runtime state, triggers, tooling and CI reliability**.
 
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
 <img src="https://img.shields.io/badge/Agent_UI-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="Agent UI" />
@@ -131,20 +125,25 @@ Contributing to **runtime state handling, trigger behavior, registry/tooling and
 
 ---
 
-## 📊 Code Languages
+## Activity
 
-<div align="center">
+<table>
+<tr>
+<td width="34%" valign="top">
 
-<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="340" alt="Top languages by commit" />
+### Code Languages
 
-</div>
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="100%" alt="Top languages by commit" />
 
-## ⚡ Codex Token Activity
+</td>
+<td width="66%" valign="top">
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/dawNotPoi/dawNotPoi/main/assets/codex-token-activity.svg" target="_blank" title="Open full-size Codex token activity">
-    <img width="100%" src="./assets/codex-token-activity.svg" alt="Daily Codex token activity over the last 365 days" />
-  </a>
-</p>
+### 60-day Codex Token Activity
 
-> I care more about reliable engineering workflows than collecting AI tools: clear context, reproducible changes, tests, reviewable diffs and maintainable systems.
+<a href="https://raw.githubusercontent.com/dawNotPoi/dawNotPoi/main/assets/codex-token-activity.svg" target="_blank" title="Open full-size Codex token activity">
+  <img width="100%" src="./assets/codex-token-activity.svg" alt="Daily Codex token activity over the last 60 days" />
+</a>
+
+</td>
+</tr>
+</table>
