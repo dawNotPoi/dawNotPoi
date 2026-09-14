@@ -17,7 +17,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Generate cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
