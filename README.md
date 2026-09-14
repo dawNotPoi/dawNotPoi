@@ -32,54 +32,6 @@ Working mainly with **TypeScript / React / Node.js**, while contributing to open
 
 ---
 
-## 🧰 Tech Stack
-
-<div align="center">
-
-### Languages
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-
-### Frontend
-
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-<img src="https://img.shields.io/badge/Tiptap-111111?style=for-the-badge&logo=prosemirror&logoColor=white" alt="Tiptap" />
-<img src="https://img.shields.io/badge/Jotai-111111?style=for-the-badge&logo=react&logoColor=white" alt="Jotai" />
-
-### Backend & Runtime
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-<img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSocket" />
-<img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC" />
-<img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri" />
-
-### AI & Agent Infrastructure
-
-<img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge&logo=probot&logoColor=white" alt="MCP" />
-<img src="https://img.shields.io/badge/ACP-4F46E5?style=for-the-badge&logo=protocolsdotio&logoColor=white" alt="ACP" />
-<img src="https://img.shields.io/badge/Tool_Calling-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="Tool Calling" />
-<img src="https://img.shields.io/badge/Coding_Agents-2563EB?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Coding Agents" />
-
-### Engineering & Daily Tools
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
-<img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
-<img src="https://img.shields.io/badge/Pi-111111?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Pi" />
-<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek" />
-
-</div>
-
----
-
 ## 🚀 Selected Projects
 
 <table>
