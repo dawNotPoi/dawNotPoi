@@ -1,16 +1,74 @@
-## Hi there 👋
+# Hi, I'm Dawn 👋
 
-<!--
-**dawNotPoi/dawNotPoi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack developer focused on **AI coding agents, developer tools and agent infrastructure**.
 
-Here are some ideas to get you started:
+Currently building with **React / TypeScript / Node.js**, while exploring and contributing around
+**MCP, ACP, coding agents, runtime reliability and developer tooling**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧰 Tech Stack
+
+**Languages**
+
+`TypeScript` `JavaScript` `Rust` `Go` `Python`
+
+**Frontend**
+
+`React` `Vue` `Vite` `Tiptap` `Jotai`
+
+**Backend & Runtime**
+
+`Node.js` `Express` `WebSocket` `WebRTC` `Tauri`
+
+**AI & Agent Infrastructure**
+
+`MCP` `ACP` `Tool Calling` `Coding Agents`
+
+**Daily Tools**
+
+`Codex` `Pi` `DeepSeek` `Git` `Docker`
+
+---
+
+## 🚀 Projects
+
+### Nubbi
+
+A full-stack knowledge workspace.
+
+- Rich-text notes and knowledge management
+- File storage with chunk upload / resume / instant upload
+- Real-time collaboration and WebRTC meetings
+- MCP server exposing workspace capabilities to AI clients
+
+### [PeekPal](https://github.com/dawNotPoi/PeekPal)
+
+A lightweight desktop developer tool built around an embedded browser workflow.
+
+### [Skills](https://github.com/dawNotPoi/skills)
+
+Reusable skills and workflow definitions for AI-assisted development.
+
+---
+
+## 🌱 Open Source
+
+### [Codeg](https://github.com/xintaofei/codeg)
+
+Contributing across **MCP, ACP, tool-call normalization, Git Worktree and coding-agent runtime reliability**.
+
+### [3x-ui](https://github.com/MHSanaei/3x-ui)
+
+Contributions across frontend, backend, subscription runtime and concurrency-related issues.
+
+### [assistant-ui](https://github.com/assistant-ui/assistant-ui)
+
+Contributions to React agent UI infrastructure, runtime state handling and registry tooling.
+
+---
+
+## 📊 At a glance
+
+<p>
+  <img height='160' src='https://github-readme-stats.vercel.app/api?username=dawNotPoi&show_icons=true&hide_title=true&hide_border=true' />
+  <img height='160' src='https://github-readme-stats.vercel.app/api/top-langs/?username=dawNotPoi&layout=compact&hide_border=true' />
+</p>
