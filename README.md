@@ -131,22 +131,20 @@ Contributing to **runtime state handling, trigger behavior, registry/tooling and
 
 ---
 
-## 📊 GitHub at a glance
+## 📊 Code Languages
 
 <div align="center">
 
-<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="GitHub profile details" />
-
-<br />
-
-<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="32%" alt="Repos per language" />
-<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="32%" alt="Most commit language" />
-<img src="./profile-summary-card-output/github_dark/3-stats.svg" width="32%" alt="GitHub stats" />
-
-<br />
-
-<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Productive time" />
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="340" alt="Top languages by commit" />
 
 </div>
+
+## ⚡ Codex Token Activity
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/dawNotPoi/dawNotPoi/main/assets/codex-token-activity.svg" target="_blank" title="Open full-size Codex token activity">
+    <img width="100%" src="./assets/codex-token-activity.svg" alt="Daily Codex token activity over the last 365 days" />
+  </a>
+</p>
 
 > I care more about reliable engineering workflows than collecting AI tools: clear context, reproducible changes, tests, reviewable diffs and maintainable systems.
