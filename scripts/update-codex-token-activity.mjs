@@ -98,7 +98,7 @@ function render(days, today) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Codex Token Activity">
 <style>
-.bg{fill:#0d1117;stroke:#2e343b;stroke-width:1}.title{fill:#e6edf3;font:600 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#8b949e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(240,246,252,.05);stroke-width:1}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}
+.bg{fill:#0d1117;stroke:#2e343b;stroke-width:1}.title{fill:#e6edf3;font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#8b949e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(240,246,252,.05);stroke-width:1}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}
 </style>
 <rect class="bg" x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="5"/>
 <text class="title" x="24" y="28">Codex Token Activity</text>
