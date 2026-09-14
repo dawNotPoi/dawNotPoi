@@ -60,7 +60,7 @@ Composable skills and workflow definitions for AI-assisted development, covering
 <tr>
 <td width="50%" valign="top">
 
-### 📝 Nubbi
+### 📝 [Nubbi](https://github.com/dawNotPoi/Nubbi)
 
 A full-stack knowledge workspace with rich-text notes, file storage, real-time collaboration and an MCP server exposing workspace capabilities to AI clients.
 
