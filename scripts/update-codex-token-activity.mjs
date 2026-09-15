@@ -55,7 +55,7 @@ function render(days, today) {
   const cell = 18;
   const gap = 5;
   const x0 = 32;
-  const y0 = 58;
+  const y0 = 51;
   const end = addDays(today, 6 - new Date(`${today}T00:00:00Z`).getUTCDay());
   const start = new Date(end.getTime() - (cols * rows - 1) * DAY);
   const visibleStart = iso(addDays(today, -(DAYS_TO_SHOW - 1)));
@@ -94,7 +94,7 @@ function render(days, today) {
       const month = date.getUTCMonth();
       if (month !== previousMonth && date.getUTCDate() <= 7) {
         monthLabels.push(
-          `<text class="month" x="${x}" y="218">${date.toLocaleString('en', { month: 'short', timeZone: 'UTC' })}</text>`,
+          `<text class="month" x="${x}" y="220">${date.toLocaleString('en', { month: 'short', timeZone: 'UTC' })}</text>`,
         );
         previousMonth = month;
       }
