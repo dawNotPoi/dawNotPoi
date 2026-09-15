@@ -121,8 +121,9 @@ function render(days, today) {
 <style>
 .bg{fill:#0d1117;stroke:#2e343b;stroke-width:1}.title{fill:#e6edf3;font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.sub,.month{fill:#8b949e;font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.d{stroke:rgba(240,246,252,.05);stroke-width:1;transition:stroke .12s,filter .12s,transform .12s}.d:hover{stroke:#fff;stroke-width:2;filter:brightness(1.4);transform:scale(1.18);transform-box:fill-box;transform-origin:center}.l0{fill:#21262d}.l1{fill:#0c2d6b}.l2{fill:#1158c7}.l3{fill:#1f6feb}.l4{fill:#388bfd}.l5{fill:#58a6ff}
 .tk{fill:#58a6ff;font:600 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;opacity:0;animation:tkf ${tickerItems.length * 3}s infinite}
-${tickerItems.map((_, i) => `.t${i}{animation-delay:${i * 3}s}`).join('')}
+.t0{animation:tkf0 15s infinite}${tickerItems.slice(1).map((_, i) => `.t${i + 1}{animation-delay:${(i + 1) * 3}s}`).join('')}
 @keyframes tkf{0%{opacity:0}1.5%{opacity:1}18.5%{opacity:1}20%{opacity:0}100%{opacity:0}}
+@keyframes tkf0{0%{opacity:1}15%{opacity:1}17%{opacity:0}100%{opacity:0}}
 </style>
 <rect class="bg" x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="5"/>
 <text class="title" x="24" y="28">Codex Token Activity</text>
