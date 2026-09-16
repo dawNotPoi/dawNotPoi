@@ -51,15 +51,16 @@ jobs:
         shell: bash
         run: |
           # 保留 github_dark 输出目录以避免 README 路径变更，但将所有统计卡统一为
-          # Codex Token Activity 的蓝白视觉：白底、GitHub 浅灰边框、深色文字和蓝色图表。
+          # Codex Token Activity 的蓝白视觉：白底、GitHub 浅灰边框、深色标题/正文和蓝色图表。
           # Action 每天都会重新生成 SVG，因此改色必须放在生成步骤之后。
           find profile-summary-card-output/github_dark -name '*.svg' -print0 | while IFS= read -r -d '' f; do
             sed -i \
               -e 's/#0d1117/#ffffff/gI' \
               -e 's/#2e343b/#d0d7de/gI' \
               -e 's/#e6edf3/#24292f/gI' \
+              -e 's/#0366d6/#24292f/gI' \
               -e 's/#8b949e/#6e7781/gI' \
-              -e 's/#0366d6/#0969da/gI' \
+              -e 's/#77909c/#6e7781/gI' \
               -e 's/#40c463/#2563eb/gI' \
               -e 's/#3178c6/#2563eb/gI' \
               -e 's/#3572a5/#60a5fa/gI' \
