@@ -34,46 +34,30 @@ Working mainly with **TypeScript / React / Node.js**, while contributing to open
 
 ## Selected Projects
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-<a href="https://github.com/dawNotPoi/PeekPal"><img src="./assets/projects/peekpal.png" width="64" alt="PeekPal" /></a>
-
-#### [PeekPal](https://github.com/dawNotPoi/PeekPal)
+### <img src="./assets/projects/peekpal.png" width="36" alt="PeekPal" /> [PeekPal](https://github.com/dawNotPoi/PeekPal)
 
 A lightweight desktop devtool built around an embedded-browser workflow.
 
 <img src="https://img.shields.io/badge/Electron-1F2328?style=flat-square&logo=electron&logoColor=47848F" alt="Electron" />
 <img src="https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
 
-</td>
-<td width="33%" align="center" valign="top">
+<br />
 
-<a href="https://github.com/dawNotPoi/skills"><img src="./assets/projects/skills.svg" width="64" alt="Skills" /></a>
-
-#### [Skills](https://github.com/dawNotPoi/skills)
+### <img src="./assets/projects/skills.svg" width="36" alt="Skills" /> [Skills](https://github.com/dawNotPoi/skills)
 
 Composable skills and workflow definitions for AI-assisted development.
 
 <img src="https://img.shields.io/badge/Agent_Skills-1F2328?style=flat-square" alt="Agent Skills" />
 <img src="https://img.shields.io/badge/UI_Workflow-1F2328?style=flat-square" alt="UI Workflow" />
 
-</td>
-<td width="33%" align="center" valign="top">
+<br />
 
-<a href="https://github.com/dawNotPoi/Nubbi"><img src="./assets/projects/nubbi.svg" width="64" alt="Nubbi" /></a>
-
-#### [Nubbi](https://github.com/dawNotPoi/Nubbi)
+### <img src="./assets/projects/nubbi.svg" width="36" alt="Nubbi" /> [Nubbi](https://github.com/dawNotPoi/Nubbi)
 
 Full-stack knowledge workspace with rich-text notes, file storage, real-time collaboration and an MCP server.
 
 <img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
 <img src="https://img.shields.io/badge/MCP-1F2328?style=flat-square" alt="MCP" />
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -85,13 +69,7 @@ Full-stack knowledge workspace with rich-text notes, file storage, real-time col
   </a>
 </p>
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-<a href="https://github.com/xintaofei/codeg"><img src="./assets/projects/codeg.svg" width="64" alt="Codeg" /></a>
-
-#### [Codeg](https://github.com/xintaofei/codeg)
+### <img src="./assets/projects/codeg.svg" width="36" alt="Codeg" /> [Codeg](https://github.com/xintaofei/codeg)
 
 Coding-agent workspace and orchestration layer.
 
@@ -100,12 +78,9 @@ Coding-agent workspace and orchestration layer.
 <img src="https://img.shields.io/badge/Rust-1F2328?style=flat-square&logo=rust&logoColor=FFFFFF" alt="Rust" />
 <img src="https://img.shields.io/badge/MCP-1F2328?style=flat-square" alt="MCP" />
 
-</td>
-<td width="33%" align="center" valign="top">
+<br />
 
-<a href="https://github.com/MHSanaei/3x-ui"><img src="./assets/projects/3x-ui.png" width="64" alt="3x-ui" /></a>
-
-#### [3x-ui](https://github.com/MHSanaei/3x-ui)
+### <img src="./assets/projects/3x-ui.png" width="36" alt="3x-ui" /> [3x-ui](https://github.com/MHSanaei/3x-ui)
 
 Multi-platform Xray management panel.
 
@@ -114,12 +89,9 @@ Multi-platform Xray management panel.
 <img src="https://img.shields.io/badge/Go-1F2328?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
 <img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
 
-</td>
-<td width="33%" align="center" valign="top">
+<br />
 
-<a href="https://github.com/assistant-ui/assistant-ui"><img src="./assets/projects/assistant-ui.svg" width="64" alt="assistant-ui" /></a>
-
-#### [assistant-ui](https://github.com/assistant-ui/assistant-ui)
+### <img src="./assets/projects/assistant-ui.svg" width="36" alt="assistant-ui" /> [assistant-ui](https://github.com/assistant-ui/assistant-ui)
 
 React infrastructure for AI chat and agent interfaces.
 
@@ -127,10 +99,6 @@ React infrastructure for AI chat and agent interfaces.
 
 <img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
 <img src="https://img.shields.io/badge/Agent_UI-1F2328?style=flat-square" alt="Agent UI" />
-
-</td>
-</tr>
-</table>
 
 ---
 
