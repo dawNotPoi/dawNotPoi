@@ -10,6 +10,7 @@ on:
     paths:
       - "README.md"
       - ".github/workflows/profile-summary-cards.yml"
+      - "scripts/add-language-percentages.mjs"
 
 permissions:
   contents: write
@@ -70,6 +71,9 @@ jobs:
               -e 's/font-size: 22px/font-size: 18px/g' \
               "$f"
           done
+
+      - name: Add language percentages
+        run: node scripts/add-language-percentages.mjs
 
       - name: Commit generated assets
         shell: bash
